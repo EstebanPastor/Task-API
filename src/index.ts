@@ -14,7 +14,7 @@ dotenv.config();
 
 const PORT = process.env.PORT || 5000;
 
-app.use("/", taskRoute);
+app.use("/api", taskRoute);
 
 dbConnection();
 
